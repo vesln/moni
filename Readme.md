@@ -1,6 +1,6 @@
 [![Build Status](https://secure.travis-ci.org/vesln/moni.png)](http://travis-ci.org/vesln/moni)
 
-# word - Text this.
+# moni
 
 ![screenshot](http://img254.imageshack.us/img254/3719/monilogo.png)
                               
