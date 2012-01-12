@@ -21,22 +21,6 @@ describe('Watcher', function() {
   });
   
   describe('parse', function() {
-    it('should convert number to array', function(done) {
-      var watcher = new Watcher;
-      watcher.parse(3333, function(pids) {
-        pids.should.eql([3333]);
-        done();
-      })
-    });
-    
-    it('should convert keep the array', function(done) {
-      var watcher = new Watcher;
-      watcher.parse([3333], function(pids) {
-        pids.should.eql([3333]);
-        done();
-      })
-    });
-    
     it('should convert string to number', function(done) {
       var watcher = new Watcher;
       watcher.parse('node', function(pids) {
