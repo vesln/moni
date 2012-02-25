@@ -4,9 +4,6 @@
   , "description": "Process monitoring with node."
   , "keywords": ["monitoring", "process monitoring"]
   , "author": "Veselin Todorov <hi@vesln.com>"
-  , "dependencies": {
-	    "package": "1.0.0"
-  }
   , "devDependencies": {
       "mocha": "0.3.3"
     , "should": "0.3.2"
